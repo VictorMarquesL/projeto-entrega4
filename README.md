@@ -1,4 +1,8 @@
+# 🌐 Deploy do Projeto
+Acesse o site publicado: [https://victormarquesl.github.io/projeto-entrega4/](https://victormarquesl.github.io/projeto-entrega4/)
+
 # 🎯 Entrega IV – Versionamento, Acessibilidade e Deploy
+
 
 ## 🧠 Sobre o Projeto
 Este projeto é parte da Entrega IV da disciplina, com foco em **versionamento, acessibilidade e deploy**.
