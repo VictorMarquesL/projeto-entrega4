@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfólio acessível e otimizado, com SPA em JavaScript moderno." />
+  <title>Entrega IV – Portfólio Interativo</title>
+
+  <!-- CSS Minificado -->
+  <link rel="stylesheet" href="css/style.min.css" />
+
+  <!-- Acessibilidade -->
+  <link rel="icon" href="img/favicon.png" type="image/png" />
+</head>
+<body>
+  <nav aria-label="Menu principal">
+    <h1>Meu Portfólio</h1>
+    <ul>
+      <li><a href="#" onclick="navigate('/')">Início</a></li>
+      <li><a href="#" onclick="navigate('/projetos')">Projetos</a></li>
+      <li><a href="#" onclick="navigate('/contato')">Contato</a></li>
+    </ul>
+  </nav>
+
+  <!-- Páginas SPA -->
+  <main>
+    <section id="home">
+      <h2>Bem-vindo ao Meu Projeto</h2>
+      <p>Interface moderna e acessível criada com HTML, CSS e JavaScript.</p>
+    </section>
+
+    <section id="projetos" style="display:none;">
+      <h2>Meus Projetos</h2>
+      <p>Esses são meus projetos desenvolvidos com boas práticas e acessibilidade.</p>
+      <div class="cards">
+        <article>
+          <h3>Projeto 1</h3>
+          <p>Layout responsivo com CSS Grid e Flexbox.</p>
+          <button>Ver mais</button>
+        </article>
+        <article>
+          <h3>Projeto 2</h3>
+          <p>Formulário acessível com validação em JavaScript.</p>
+          <button>Ver mais</button>
+        </article>
+        <article>
+          <h3>Projeto 3</h3>
+          <p>Aplicação com modo escuro automático.</p>
+          <button>Ver mais</button>
+        </article>
+      </div>
+    </section>
+
+    <section id="contato" style="display:none;">
+      <h2>Fale Comigo</h2>
+      <form id="contactForm" aria-label="Formulário de contato">
+        <label for="nome">Nome</label><br />
+        <input id="nome" name="nome" type="text" placeholder="Seu nome" required /><br />
+
+        <label for="email">Email</label><br />
+        <input id="email" name="email" type="email" placeholder="Seu email" required /><br />
+
+        <label for="mensagem">Mensagem</label><br />
+        <textarea id="mensagem" name="mensagem" placeholder="Sua mensagem" required></textarea><br />
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="text-center">
+    <p>© 2025 - Desenvolvido por Victor | Acessível e otimizado conforme WCAG 2.1</p>
+  </footer>
+
+  <!-- JS Minificado -->
+  <script src="js/app.min.js"></script>
+</body>
+</html>

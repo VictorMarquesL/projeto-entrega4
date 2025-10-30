@@ -1,0 +1,15 @@
+body {
+  font-family: var(--font-primary);
+  color: var(--color-dark);
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: 700;
+  color: var(--color-primary-dark);
+}
+
+h1 { font-size: var(--font-size-xl); }
+h2 { font-size: var(--font-size-lg); }
+h3 { font-size: var(--font-size-md); }
+p { font-size: var(--font-size-md); }
